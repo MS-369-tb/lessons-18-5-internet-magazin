@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <title>Mag</title>
+  </head>
+
+  <body>
+    <div class="allpage">
+      <header>
+        <div class="container_row containerfirst">
+          <div class="header_name">
+            <a href="#" class="header_name"><span>MySite</span></a>
+          </div>
+
+          <div class="header_logo">
+            <img
+              src="img/logo.png"
+              class="header_logo_img"
+              alt="ЛоготипHoodieMag"
+            />
+            <p>HoodieMag</p>
+          </div>
+
+          <div class="header_button">
+            <a href="index.html" class="header_button_home"
+              ><span>Home</span></a
+            >
+            <a href="cart.html" class="header_button_cart"
+              ><i class="fa fa-shopping-cart" aria-hidden="true"></i
+              ><span>Cart</span> <span id="count">0</span></a
+            >
+          </div>
+        </div>
+      </header>
+
+      <main>
+        <div class="container-products container_row">
+          <div class="product-header">
+            <h5 class="product-title">PRODUCT</h5>
+            <h5 class="price">PRICE</h5>
+            <h5 class="quantity">QUANTITY</h5>
+            <h5 class="total">TOTAL</h5>
+          </div>
+
+          <hr class="line" />
+
+          <div id="products">
+            <!-- Здесь будут продукты -->
+          </div>
+
+        </div>
+      </main>
+    </div>
+    <script src="cart.js"></script>
+  </body>
+</html>
